@@ -1,0 +1,19 @@
+.container{
+    
+    width:100vw;
+    height:10vh;
+    background-color: red;
+}
+.nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly
+
+}
+.links{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    list-style: none;
+
+}
