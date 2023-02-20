@@ -1,4 +1,4 @@
-import styles from './ProjectCard.modules.scss'
+
 export default function ProjectCard(props){
     return(
         <div className={styles.container}>

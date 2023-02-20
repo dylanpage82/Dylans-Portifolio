@@ -1,0 +1,15 @@
+.slick-slide img {
+    width:12vw;
+    height:12vh;
+  }
+.imageSlider{
+    background-color: darkgray;
+}
+/* .projectContainer{
+    display:flex;
+    /* justify-content: space-between; */
+.projectBox img{
+    height:100px;
+    width:100px;
+    object-fit: contain;
+}
