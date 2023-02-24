@@ -1,3 +1,6 @@
+*{
+    margin:0;
+}
 .slick-slide img {
     width:12vw;
     height:12vh;
@@ -5,11 +8,20 @@
 .imageSlider{
     background-color: darkgray;
 }
-/* .projectContainer{
-    display:flex;
-    /* justify-content: space-between; */
+ .projectContainer{
+    align-items: center;
+ }
+.projectBox {
+    display: inline-block;
+    margin: 40px 40px;
+    border:dotted 2px black;
+    width: 30%;
+    text-align: center;
+
+}
 .projectBox img{
-    height:100px;
-    width:100px;
+    
+    height:300px;
+    width:300px;
     object-fit: contain;
 }
