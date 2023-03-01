@@ -1,27 +1,23 @@
 *{
-    margin:0;
+    box-sizing: border-box;
 }
-.slick-slide img {
-    width:12vw;
-    height:12vh;
-  }
-.imageSlider{
-    background-color: darkgray;
-}
- .projectContainer{
-    align-items: center;
- }
-.projectBox {
-    display: inline-block;
-    margin: 40px 40px;
-    border:dotted 2px black;
-    width: 30%;
-    text-align: center;
 
+
+  
+
+.descript{
+    overflow: scroll;
 }
-.projectBox img{
-    
-    height:300px;
-    width:300px;
-    object-fit: contain;
+
+.cert{
+    display: flex;
+    justify-content: center;
 }
+.cert img{
+    max-width: 80vw;
+    max-height: 50vh;
+}
+/* .navbar.fixed{
+    background-color: gray;
+    transition: .3s ease-in-out;
+} */ 

@@ -1,0 +1,16 @@
+.projectContainer{
+    text-align: center;
+ } 
+.projectBox {
+    display: inline-block;
+    border:dotted 2px black;
+    max-height: 60vh;
+    margin: 50px 50px;
+    max-width: 40vw;
+    max-height: 60vh;
+}
+.projectBox img{
+    max-height: 40vh;
+    max-width: 40vw;
+    object-fit: cover;
+}

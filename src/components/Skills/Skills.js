@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import React from 'react'
+import styles from './Skills.module.scss'
 
 const Skills = () => {
     const settings = {
@@ -16,7 +17,7 @@ const Skills = () => {
     };
 
     return(
-        <div className='imageSlider'>
+        <div className={styles.imageSlider}>
             <Slider {...settings}>
                 {SkillsCard.map((item) => (
                   <div key={item.id}>

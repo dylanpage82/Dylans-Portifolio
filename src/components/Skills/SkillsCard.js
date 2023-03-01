@@ -32,25 +32,25 @@ const SkillsCard = [{
     id:6,
     src: '',
     alt: 'Skill 6',
-    skill:''
+    skill:'MongoDB'
 },
 {
     id:7,
     src: '',
     alt: 'Skill 7',
-    skill:''
+    skill:'BootStrap'
 },
 {
     id:8,
     src: '',
     alt: 'Skill 8',
-    skill:''
+    skill:'Git'
 },
 {
     id:9,
     src: '',
     alt: 'Skill 9',
-    skill:''
+    skill:'Postman'
 },
 {
     id:10,
