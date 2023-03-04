@@ -7,12 +7,12 @@ import Footer from "./components/Footer/Footer"
 export default function App() {
   return(
     <>
-    <Navbar />
-    <AboutMe />
-    <Skills />
+    {/* <Navbar />
+    {/*<AboutMe />
+    <Skills /> 
     <Projects/>
-    <Cert/>
-    <Footer/>
+  <Cert/>*/}
+    <Footer/> 
     </>
   
 

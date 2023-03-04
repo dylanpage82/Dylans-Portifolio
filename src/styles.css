@@ -1,23 +1,10 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    margin:0;
+    padding:0;
+    background: url(https://d7hftxdivxxvm.cloudfront.net/?height=2000&quality=80&resize_to=fit&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F2RNK1P0BYVrSCZEy_Sd1Ew%252F3417757448_4a6bdf36ce_o.jpg&width=2000);
+}
 
   
-
-.descript{
-    overflow: scroll;
-}
-
-.cert{
-    display: flex;
-    justify-content: center;
-}
-.cert img{
-    max-width: 80vw;
-    max-height: 50vh;
-}
-/* .navbar.fixed{
-    background-color: gray;
-    transition: .3s ease-in-out;
-} */ 
