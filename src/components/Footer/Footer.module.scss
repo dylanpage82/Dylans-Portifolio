@@ -1,17 +1,27 @@
 .footer{
-    position: absolute;
+    position: fixed;
+    display: inline-block;
     bottom:0;
-    width: 100%;
-    max-height: 6.2rem;
-    border: solid black 3px;
+    width: 100vw;
+    max-height: 12vh;
     margin:0;
     padding:0;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color:#357EC7 ;
     
 }
-.footer img{
-    position: relative;
-    max-width: 100%;
+.button{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: whitesmoke;
     height: auto;
-    width: auto;
+    font-size: 2vw;
+}
+.button h2{
+    padding-right: 4px;
+}
+.button img{
+    object-fit: contain;
 }

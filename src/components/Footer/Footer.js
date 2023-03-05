@@ -1,11 +1,23 @@
-import {useState} from 'react'
-import styles from './Footer.module.scss'
-export default function Footer (){
-  const [windows, setWindows] = useState(false)
 
+import styles from './Footer.module.scss'
+export default function Footer({
+  windows,
+  setWindows
+}){
+  
+
+  const handleClick = (evt) => {
+    setWindows(!windows)
+  }
   return(
+    <>
+    
     <footer className={styles.footer}>
-      <img src={require('../../assets/windows.png')}></img>
+      <button className={styles.button} onClick = {handleClick}>
+        <img  src={require('../../assets/icon.png')}></img>
+        start
+      </button>
     </footer>
+    </>
   )
 }
