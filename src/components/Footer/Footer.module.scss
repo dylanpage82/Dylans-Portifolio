@@ -1,19 +1,17 @@
 .footer{
     position: fixed;
-    display: inline-block;
     bottom:0;
     width: 100vw;
     max-height: 12vh;
     margin:0;
     padding:0;
-    background-color:#357EC7 ;
-    
+    background-color:#357EC7;
+    display: flex;
 }
 .button{
     display: flex;
     background-color: green;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-start;
     width: fit-content;
     color: whitesmoke;
     height: auto;
@@ -24,4 +22,18 @@
 }
 .button img{
     object-fit: contain;
+}
+.contact{
+    display: flex;
+    justify-content:flex-start;
+    width: 80%;
+    align-items: center;
+    font-size: 3vh;
+    margin-left: 3vw;
+    color: white;
+}
+.contact a{
+    background-color: #357EC7;
+    border: solid 3px #2a65a0;
+    color: white;
 }

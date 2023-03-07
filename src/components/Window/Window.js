@@ -13,18 +13,7 @@ export default function Window({
                     <h1>Dylan Page</h1>
                  </div>
                 <div className={styles.contact}>
-                  <a href='https://github.com/dylanpage82' target='_blank' className='me-4 text-reset'>
-                    <MDBIcon fab icon = 'github' />
-                    Github
-                  </a> <br />
-                  <a href='https://www.linkedin.com/in/dylan-page2/' target='_blank' className='me-4 text-reset'>
-                    <MDBIcon fab icon ='linkedin'/>
-                    Linkdin
-                  </a> <br />
-                  <a href='https://github.com/dylanpage82' target='_blank' className='me-4 text-reset'>
-                    <MDBIcon fab icon = 'twitter' />
-                    Twitter
-                  </a><br />
+                  
                   <a href="mailto:dylanpage82@gmail.com" target='_blank' className='me-4 text-reset'>
                     <MDBIcon icon = 'envelope' />
                     E-mail
