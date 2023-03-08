@@ -1,32 +1,42 @@
-import SkillsCard from './SkillsCard'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import React from 'react'
+import { MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 import styles from './Skills.module.scss'
 
-const Skills = () => {
-    const settings = {
-        dots: false,
-        autoplay: true,
-        infinite: true,
-        slidesToShow: 2,
-        lazyLoad: true,
-        slidesToScroll: 1,
-        autoplaySpeed: 3000
-    };
-
+export default function Skills(){
     return(
-        <div className={styles.imageSlider}>
-            <Slider {...settings}>
-                {SkillsCard.map((item) => (
-                  <div key={item.id}>
-                    <img src={item.src} alt={item.alt} />
-                    <h1>{item.skill}</h1>
-                  </div>  
-                ))}
-            </Slider>
+        <div className={styles.container}>
+            <div className={styles.one}>
+                <span className="fab fa-bootstrap"><p className={styles.boot}>Bootstrap</p></span>
+                <span className="fab fa-html5"><p>HTML5</p></span>
+            </div>
+            <div className={styles.two}>
+                <span className="fab fa-node"><p>Nodejs</p></span>
+                <span className="fab fa-react"><p>React</p></span>
+            </div>
+            <div className={styles.three}>
+                <span className="fab fa-js"><p>JS</p></span>
+                <span className="fab fa-github"><p>Github</p></span>
+            </div>
+            <div className={styles.four}>
+                <span className="fas fa-database"><p>MDB</p></span>
+                <span className="fab fa-css3-alt"><p>CSS3</p></span>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
         </div>
     )
 }
-export default Skills
+/*<i class="fab fa-css3-alt"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-html5"></i>
+<i class="fab fa-js"></i>
+<i class="fab fa-node"></i>
+<i class="fab fa-react"></i>
+<i class="fab fa-bootstrap"></i>
+<i class="fas fa-database"></i>
+*/

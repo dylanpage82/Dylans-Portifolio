@@ -4,6 +4,7 @@ import styles from "./HomePage.module.scss"
 import {useState, useEffect} from "react"
 import sound from '../../assets/Startup.wav'
 import Cert from "../../components/Cert/Cert"
+import Skills from "../../components/Skills/Skills"
 
 export default function HomePage(){
     const [windows, setWindows] = useState(false)
@@ -16,6 +17,7 @@ export default function HomePage(){
     },[])
     return(
         <div className={styles.home}>
+        <Skills/>
         <Cert setShowCert={setShowCert} showCert={showCert}/>
         <Window windows={windows} />
         <Footer windows={windows} setWindows={setWindows} />

@@ -1,7 +1,35 @@
- .slick-slide img {
-    width:12vw;
-    height:12vh;
-  }
-.imageSlider{
-    background-color: darkgray;
+.container{
+  height: 35vh;
+  width: 30vw;
+}
+.container span{
+  font-size: 3.5vw;
+  height:6vh;
+  width: 6vw;
+  text-align: center;
+  
+}
+.one{
+  display:flex ;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+}
+.two{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+}
+.three{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+}
+.four{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+}
+.container p{
+  font-size: 1vw;
+  color: white;
 }
