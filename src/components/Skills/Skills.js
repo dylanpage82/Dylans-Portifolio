@@ -4,6 +4,7 @@ import styles from './Skills.module.scss'
 export default function Skills(){
     return(
         <div className={styles.container}>
+            <h1>Skills</h1>
             <div className={styles.one}>
                 <span className="fab fa-bootstrap"><p className={styles.boot}>Bootstrap</p></span>
                 <span className="fab fa-html5"><p>HTML5</p></span>
@@ -31,12 +32,3 @@ export default function Skills(){
         </div>
     )
 }
-/*<i class="fab fa-css3-alt"></i>
-<i class="fab fa-github"></i>
-<i class="fab fa-html5"></i>
-<i class="fab fa-js"></i>
-<i class="fab fa-node"></i>
-<i class="fab fa-react"></i>
-<i class="fab fa-bootstrap"></i>
-<i class="fas fa-database"></i>
-*/
